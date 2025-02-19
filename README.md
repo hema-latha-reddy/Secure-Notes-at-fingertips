@@ -42,6 +42,7 @@ Features
 
 
 🛠 Future Enhancements 
+
 🚀 Two-Factor Authentication (2FA) – Adding an extra layer of security  
 🚀 Biometric Login – Using fingerprint or face recognition  
 🚀 Offline Mode– Allowing users to access notes without an internet connection  
