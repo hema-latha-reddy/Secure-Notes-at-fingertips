@@ -1,0 +1,263 @@
+/* Centering the container 
+.auth-header {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 2rem;
+  color: #333; 
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+  justify-content: flex-start; 
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #11972e;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+
+.auth-box {
+  width: 350px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 100px; 
+}
+
+
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.auth-input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+
+.error-message {
+  color: red;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #45a049;
+}
+
+.auth-box p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.auth-box a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}
+*/
+/* Centering the container */
+.auth-header {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 2rem;
+  color: #333; /* Optional: Adjust the color */
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+  justify-content: flex-start; /* Adjusts the alignment for content below */
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 80px; /* Adjusted padding-top for better spacing with fixed navbar */
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #11972e;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  width: 200px; /* Fixed width for the links container */
+  
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  
+  font-size: 1.3rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Form box styling */
+.auth-box {
+  width: 350px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Input field styling */
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.auth-input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Button styling */
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #45a049;
+}
+
+.auth-box p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.auth-box a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .auth-box {
+    width: 90%;
+    margin-top: 50px;
+  }
+}
+
+

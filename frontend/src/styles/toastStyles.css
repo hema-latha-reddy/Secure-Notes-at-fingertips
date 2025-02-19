@@ -1,0 +1,40 @@
+/* General Toast Container Styles */
+.Toastify__toast-container {
+    z-index: 9999;
+    position: fixed;
+    top: 1rem; /* Adjust as per positioning */
+    right: 1rem;
+  }
+  
+  /* Style for the success toast */
+  .Toastify__toast--success {
+    background-color: #3d8ad2 !important; /* Solid green background */
+    color: rgb(241, 237, 237) !important; /* White text */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: none !important; /* No shadow */
+    padding: 8px; /* Adequate padding */
+    font-weight: 100;
+  }
+  
+  /* Style for the error toast */
+  .Toastify__toast--error {
+    background-color: #dc3545 !important; /* Solid red background */
+    color: rgb(246, 240, 240) !important; /* White text */
+  }
+  
+  /* Progress Bar Styling */
+  .Toastify__progress-bar {
+    background-color: white !important; /* White progress bar */
+  }
+  
+  
+  /*.Toastify__close-button {
+    color: white !important; 
+  }*/
+  
+  /* Toast Body Text */
+  .Toastify__toast-body {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

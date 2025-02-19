@@ -1,0 +1,78 @@
+/* styles/pages.css */
+
+.page-container {
+  max-width: 600px;
+  margin: 100px auto; /* Increased top margin to push it lower */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+
+  
+  .page-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .page-container textarea,
+  .page-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .page-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .page-container p {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+
+  }
+  
+  .retrieved-container {
+    margin-top: 20px;
+  }
+  
+  .retrieved-container h3 {
+    color: #444;
+  }
+  
+  .retrieved-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .retrieved-container li {
+    padding: 8px;
+    background-color: #e6e6e6;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+  
