@@ -3,6 +3,7 @@ Secure Notes Project
 A "Secure Notes Application" that allows users to store and manage their notes securely with encryption.
 
 💡 Problem Statement 
+
 With the rise of digital note-taking, users often store sensitive information such as passwords, ideas, and personal thoughts online. However, most applications lack encryption or proper authentication, making them vulnerable todata breaches. This project aims to solve this issue by providing:  
 ✅ Encrypted Notes Storage – Ensuring only the user can access their notes  
 ✅ User Authentication – Protecting data with login/signup functionality  
@@ -10,6 +11,7 @@ With the rise of digital note-taking, users often store sensitive information su
 ✅ Cross-Platform Support – Making notes accessible from any device securely  
 
 Features
+
 ✅ User Authentication – Login & Signup functionality  
 ✅ Secure Note Storage – Encrypt and protect your notes  
 ✅ CRUD Operations – Add, edit, delete, and search notes  
