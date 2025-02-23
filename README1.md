@@ -56,6 +56,10 @@ When the execution of the frontend is done, it will directly navigate to:
 5. **Cross-Platform Support** – Making notes accessible from any device securely.  
 
 ---
+## 📽️ Demo
+Watch the demo video here:
+
+https://drive.google.com/file/d/1BqYd1H2oJ2_Dp-ZCnOr6UKgNPh5jJvLU/view?usp=drivesdk
 
 ## 📜 License  
 This project is licensed under the [MIT License](./LICENSE).
